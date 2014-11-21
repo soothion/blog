@@ -41,7 +41,7 @@
                                 <?php } ?>
                             </ul>
                         </li>
-                        <?}?>
+                        <?php }?>
                     </ul>
 
                 </nav>
@@ -49,7 +49,7 @@
 
                 <!-- docs content -->
                 <div id="docs-content">
-                    <?php echo $content; ?>
+                    <?php echo $content;?>
             </div>
             <!-- /docs content -->
 
