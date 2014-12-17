@@ -38,9 +38,12 @@ return array(
 
 	// application components
 	'components'=>array(
-                'bootstrap' => array(
-                        'class' => 'bootstrap.components.Bootstrap',
-                ),
+        'bootstrap' => array(
+                'class' => 'bootstrap.components.Bootstrap',
+        ), 
+        'sitemap' => array(
+                'class' => 'sitemap.SitemapComponent',
+        ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
