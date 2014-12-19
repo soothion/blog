@@ -27,6 +27,14 @@
 </div>
 <!-- /content -->
 
+
+
+<!-- service -->
+<section id="service">
+    <?php $this->widget('ModuleWidget', array('title' => 'service')); ?>
+</section>
+<!-- /service -->
+
 <!-- quotes -->
 <section id="quotes">
     <?php $this->widget('ModuleWidget', array('title' => 'quotes')); ?>
