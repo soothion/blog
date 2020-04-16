@@ -20,6 +20,10 @@ return array(
 		'application.components.*',
 	),
 
+        'aliases' => array(
+             'yiiExtensions' => realpath(__DIR__ . '/../extensions'),
+         ),
+
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 
@@ -41,9 +45,6 @@ return array(
         'bootstrap' => array(
                 'class' => 'bootstrap.components.Bootstrap',
         ), 
-        'sitemap' => array(
-                'class' => 'sitemap.SitemapComponent',
-        ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
